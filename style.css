@@ -1,0 +1,59 @@
+.sendbutton {
+border: 10px outset #15c2f7;
+background-color: #15c2f7;
+padding: 12px;
+width: 250px;
+margin: auto;
+display: block;
+position: absolute;
+bottom: 21.75%;
+left: 85.75%;
+border-radius: 5%;
+}
+
+.sendbutton:hover {
+border: 10px outset #15c2f7;
+background-color: #15c2f7;
+padding: 12px;
+width: 250px;
+margin: auto;
+display: block;
+opacity: 0.6;
+}
+
+.sendbutton:active {
+border: 10px inset #15c2f7;
+background-color: #15c2f7;
+padding: 12px;
+width: 250px;
+margin: auto;
+display: block;
+}
+
+body {
+    background-color: #36393f;
+    color: white;
+}
+
+.messagebox {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.embeddiscord {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.burger {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    display: block;
+}
