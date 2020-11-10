@@ -77,3 +77,29 @@ body {
     width: 25%;
     text-decoration: none;
 }
+
+.disabled-burger-button:hover {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin: auto;
+    display: block;
+    background-color: blue;
+    border: 10px outset blue;
+    width: 25%;
+    text-decoration: none;
+    opacity: 0.4;
+}
+
+
+.disabled-burger-button:active {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin: auto;
+    display: block;
+    background-color: blue;
+    border: 10px inset blue;
+    width: 25%;
+    text-decoration: none;
+}
