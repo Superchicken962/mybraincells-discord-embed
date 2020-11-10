@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- remove line below to disable redirecting to disabled page -->
-    <meta http-equiv="refresh" content="0; URL=disabled.html" />
+    <!-- remove line or add comment to below to disable redirecting to disabled page -->
+    <!-- <meta http-equiv="refresh" content="0; URL=disabled.html" /> -->
 
     <title>mybraincells - discord chat</title>
     <link rel="icon" href="brain.png">
@@ -19,8 +19,11 @@
   - mybraincells.cf
   <br><br><br>
   <iframe src="https://e.widgetbot.io/channels/761959921767677953/774547279628992513" class="embeddiscord" height="600" width="800"></iframe>
-  <input type="text" class="messagebox" placeholder="Message #messages_from_website" size="12" id="un"><br><span class="burger">Make sure you enter a name before posting! (top left of page.)</span>
+  <input type="text" class="messagebox" placeholder="Message #messages_from_website" size="12" id="un">
+  <br>
   <input type="button" class="sendbutton" value="Send" onclick="sendmsg()">
+  <br>
+  <span class="burger">Make sure you enter a name before posting! (top left of page.)</span>
 </form>
   <script>
     function sendmsg() {
