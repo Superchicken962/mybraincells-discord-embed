@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- remove line or add comment to below to disable redirecting to disabled page -->
-    <meta http-equiv="refresh" content="0; URL=disabled.html" />
+    <!-- <meta http-equiv="refresh" content="0; URL=disabled.html" /> -->
 
     <title>mybraincells - discord chat</title>
     <link rel="icon" href="brain.png">
@@ -14,12 +14,13 @@
   <body>
 
 <form>
-  Name:
-  <input type="text" placeholder="Username" size="12" id="an">
-  - mybraincells.cf
+  <p>Name:
+  <input type="text" placeholder="Username" size="12" id="name">
+  - mybraincells.cf</p>
   <br><br><br>
-  <iframe src="https://e.widgetbot.io/channels/761959921767677953/774547279628992513" class="embeddiscord" height="600" width="800"></iframe>
-  <input type="text" class="messagebox" placeholder="Message #messages_from_website" size="12" id="un">
+  <iframe src="https://titanembeds.com/embed/761959921767677953?defaultchannel=774547279628992513&username=Guest" class="embeddiscord" height="600" width="800" frameborder="0"></iframe>
+  <!-- <iframe src="https://e.widgetbot.io/channels/761959921767677953/774547279628992513" class="embeddiscord" height="600" width="800"></iframe> -->
+  <input type="text" class="messagebox" placeholder="Message #messages_from_website" size="12" id="message">
   <br>
   <input type="button" class="sendbutton" value="Send" onclick="sendmsg()">
   <br>
@@ -27,9 +28,9 @@
 </form>
   <script>
     function sendmsg() {
-      var message = document.getElementById("un").value;
-      var thename = document.getElementById("an").value;
-      thename += ' - mybraincells.cf';
+      var message = document.getElementById("message").value;
+      var thename = document.getElementById("name").value;
+      thename += ' - mybraincells.cf BETA';
       var request = new XMLHttpRequest();
       request.open("POST", "https://discordapp.com/api/webhooks/774547298415017994/wls_IhXAidbCrJ2ZLlHbed5Jd5mEZntO8ZaBuhb89xq_hHUDXy40fVg3YggukSnAn4pM");
 

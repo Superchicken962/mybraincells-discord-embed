@@ -52,7 +52,7 @@
 
 
 const badWords = ["@", "nigger", "Nigger", "NIGGER", "fuck", "Fuck", "FUCK"];
-const input = document.getElementById("un");
+const input = document.getElementById("message");
 
 input.addEventListener("keyup", function(){
 	let newUserName = input.value;
