@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- remove line or add comment to below to disable redirecting to disabled page -->
-    <!-- <meta http-equiv="refresh" content="0; URL=disabled.html" /> -->
+    <meta http-equiv="refresh" content="0; URL=disabled.html" />
 
     <title>mybraincells - discord chat</title>
     <link rel="icon" href="brain.png">
@@ -30,7 +30,7 @@
     function sendmsg() {
       var message = document.getElementById("message").value;
       var thename = document.getElementById("name").value;
-      thename += ' - mybraincells.cf BETA';
+      thename += ' - mybraincells.cf';
       var request = new XMLHttpRequest();
       request.open("POST", "https://discordapp.com/api/webhooks/774547298415017994/wls_IhXAidbCrJ2ZLlHbed5Jd5mEZntO8ZaBuhb89xq_hHUDXy40fVg3YggukSnAn4pM");
 
